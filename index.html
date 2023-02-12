@@ -26,8 +26,11 @@ zoom: 13 // starting zoom
 
 var marker2 = new mapboxgl.Marker({ color: 'red', rotation: 0 })
 .setLngLat([2.140623, 44.016452])
-.setPopup(new mapboxgl.Popup().setHTML("<h4>Balise 5<br> Long:2.140623 / Lat:44.016452 <br><br><a href='tel:+33643720271'>Appel secours</a></h4>"))
+.setPopup(new mapboxgl.Popup().setHTML("<h2>Balise 5</h2><hr><br><h4>Long:2.140623 / Lat:44.016452<br><br></h4><a href='tel:+33643720271'><h3>Appel secours<img src='phone.svg'></a></h3>"))
 .addTo(map)
+
+
+
 
 
 
